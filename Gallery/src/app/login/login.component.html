@@ -1,0 +1,42 @@
+<section class="sign-in">
+  <div class="container">
+    <div class="signin-content">
+      <div class="signin-image">
+        <figure><img src="https://github.com/ClydeBe/Systemes-distribues/blob/master/yspfront/WebContent/site/account/static/assets/signin-image.jpg?raw=true" alt="sing up image"></figure>
+        <a href="/yspfront/site/account/register.html" class="signup-image-link">Create an account</a>
+      </div>
+
+      <div class="signin-form">
+        <h2 class="form-title">Login</h2>
+        <form method="POST" class="register-form" id="login-form">
+          <div class="invalid-feedbak" id="feedback" style="display:none">
+            <small>
+              <center>
+                <p style='color:red'>Invalid credentials</p>
+              </center>
+            </small>
+          </div>
+          <div class="form-group">
+            <label for="username"><i class="fas fa-user"></i></label>
+            <input type="text" name="username" id="username" placeholder="username" required/>
+          </div>
+          <div class="form-group">
+            <label for="password"><i class="fas fa-lock"></i></label>
+            <input type="password" name="password" id="password" placeholder="Password" required/>
+          </div>
+          <div class="form-group form-button">
+            <input type="submit" name="signin" id="signin" class="form-submit" value="Log in"/>
+          </div>
+          <div class="form-group">
+            <br><center><a href="/yspfront/site/account/resetpassword.html">Mot de passe oublié</a></center>
+          </div>
+          <div class="row">
+            <div class="spinner-border offset-6 text-success col-4" role="status" id="spinner" style="display:none">
+              <span class="sr-only">Loading...</span>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,39 @@
+footer{
+  margin-top: 50px;
+}
+.get{
+  background-color: crimson;
+  color: #fff;
+}
+
+.get a{
+  margin-left: 25px;
+}
+
+.footer-link{
+  background-color: #2e2e2e;
+  color: #fff;
+}
+
+.footer-copyright{
+  background-color: #222;
+  color: white;
+}
+
+.title-footer::before{
+  content: '';
+  background: crimson;
+  height: 5px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(40px);
+  border-radius: 3px
+  /* border-bottom: solid 5px #2a3c52; */
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}

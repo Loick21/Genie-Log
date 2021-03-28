@@ -1,0 +1,33 @@
+.container{
+  max-width: 1500px;
+}
+
+/**/
+
+.navbar{
+  height: 100px;
+}
+.dot{
+  font-family: "Lucida Handwriting";
+  color: crimson;
+  font-size: 30px;
+}
+
+.navbar-brand{
+  font-family:'Life Savers', cursive;
+  font-size: 2rem;
+}
+
+.nav-link{
+  margin-left: 10px;
+}
+
+.navbar-nav{
+  margin-left: 20px;
+}
+
+a{
+  color: black;
+}
+
+

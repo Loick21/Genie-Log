@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+.fixNavigation{
+  overflow: hidden;
+  top: 0; /* Position the navbar at the top of the page */
+  z-index: 99;
+  position: fixed;
+  width: 100%; /* Full width */
+  height: 60px;
+}

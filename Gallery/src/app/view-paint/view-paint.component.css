@@ -1,0 +1,33 @@
+.container{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.item-title{
+  font-family: 'Life Savers', cursive;
+  font-size: 25px;
+}
+.btn-primary{
+  background-color: crimson;
+  border: none;
+}
+
+.btn-primary:hover{
+  background-color: #ec5353;
+  border: none;
+}
+
+.price{
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.stars ul li{
+  text-decoration: none;
+  display: inline-block;
+  color: #ffc000;
+}
+
+.inStock{
+  color: green;
+}
